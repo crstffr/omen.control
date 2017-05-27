@@ -1,0 +1,30 @@
+{
+  "name": "omen-control",
+  "version": "0.0.0",
+  "description": "Midi controller using Novation Launchpads",
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "nodemon lib/index.js --exec babel-node",
+    "build": "babel lib -d dist"
+  },
+  "repository": "www.github.com/tessel/t2-cli",
+  "keywords": [
+    "Tessel"
+  ],
+  "license": "MIT",
+  "readme": "A bare bones Tessel 2 blinky script.",
+  "dependencies": {
+    "app-root-path": "2.0.1",
+    "babel-cli": "6.24.1",
+    "babel-preset-es2015": "6.24.1",
+    "babel-preset-stage-2": "6.24.1",
+    "ip": "1.1.5",
+    "launchpad-mini": "1.1.2",
+    "midi": "0.9.5",
+    "midi-launchpad": "1.0.3",
+    "pubsub-js": "1.5.7",
+    "rxjs": "5.4.0",
+    "tonal": "0.69.6",
+    "ws": "2.3.1"
+  }
+}
